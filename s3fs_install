@@ -1,0 +1,24 @@
+sudo yum install gcc72 gcc72-c++ -y
+
+ git clone https://github.com/s3fs-fuse/s3fs-fuse.git
+
+
+sudo yum install git -y
+
+yum install gcc
+yum install libstdc++-devel
+yum install gcc-c++
+yum install fuse
+yum install fuse-devel
+yum install curl-devel
+yum install libxml2-devel
+yum install openssl-devel
+yum install mailcap
+
+
+sudo yum install automake -y
+
+
+./autogen.sh
+./configure
+make
